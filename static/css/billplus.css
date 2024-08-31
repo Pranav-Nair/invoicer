@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-list, .bill-draft {
+    margin: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+#product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#product-table th, #product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#product-table th {
+    background-color: #f2f2f2;
+}
+
+#product-table button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#product-table button:hover {
+    background-color: #45a049;
+}
+
+#bill-draft {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#total-price {
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    margin-right: 10px;
+}
+
+
+#bill-draft-table th, #bill-draft-table td {
+    border: 1px solid #ddd;
+    border-color: #333;
+    padding: 8px;
+    text-align: left;
+}
+
+#bill-draft-table th {
+    background-color: #f2f2f2;
+}
+
+#bill-draft-table button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#product-table button:hover {
+    background-color: #45a049;
+}

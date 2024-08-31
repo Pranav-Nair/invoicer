@@ -1,0 +1,88 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ECEFF1;
+}
+
+header {
+    background-color: #3F51B5;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+button {
+    /* margin: 20px 0 10px; */
+    margin: 1em;
+    padding: 10px 20px;
+    background-color: #3F51B5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #283593;
+}
+
+.options-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td:last-child {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* products.css */
+/* Your existing CSS styles */
+
+button#add-product {
+    margin: 1em;
+    padding: 10px 20px;
+    background-color: #3F51B5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#add-product:hover {
+    background-color: #283593;
+}
+
+a.edit-link {
+    display: inline-block;
+    padding: 10px 20px; /* Increased padding */
+    font-size: 14px; /* Increased font size */
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a.edit-link:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,42 @@
+<!-- bill_details.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Details</title>
+    <link rel="stylesheet" href="/static//css//billview.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bill Details</h1>
+        </header>
+        <main>
+            <table id="bill-details-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Unit</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Discount</th>
+                        <th>GST</th>
+                        <th>final_price</th>
+                    </tr>
+                </thead>
+                <tbody id="bill-details-body"></tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="6">Total:</td>
+                        <td id="total-price"></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </main>
+    </div>
+
+    <script src="/static/js/billview.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Invoice Billing Dashboard</title>
+    <link rel="stylesheet" href="/static/css/home.css"> 
+    <script src="/static/js/home.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Invoice Billing Dashboard</h1>
+        <div id="user-info">
+            <img src="/static/img/user.png" alt="User Icon">
+            <p id="username">@username</p>
+        </div>
+    </header>
+    <main>
+        <div class="options-container">
+            <div class="option-box">
+                <img src="/static/img/product.png" alt="Manage Products">
+                <h2>Products</h2>
+                <p>This option allows you to manage your products.</p>
+                <a href="/products">Manage Products</a>
+            </div>
+            <div class="option-box">
+                <img src="/static/img/bill.png" alt="View Bills">
+                <h2>View Bills</h2>
+                <p>This option allows you to view all your bills.</p>
+                <a href="/billlist">View Bills</a>
+            </div>
+            <div class="option-box">
+                <img src="/static/img/new.png" alt="Create Bill">
+                <h2>Create Bill</h2>
+                <p>This option allows you to create a new bill.</p>
+                <a href="/billplus">Create Bill</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

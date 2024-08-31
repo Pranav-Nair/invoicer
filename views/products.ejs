@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/static/css/products.css">
+</head>
+<body>
+    <header>
+        <h1>Products</h1>
+    </header>
+    <button id="add-product" onclick="loadAddproducts()">Add Product</button>
+    <h2>Product List</h2>
+    <div id="product-list">
+        <table>
+            <thead>
+                <tr>
+                    <th>Product ID</th>
+                    <th>Name</th>
+                    <th>Unit</th>
+                    <th>Per Qty</th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                    <th>Discount</th>
+                    <th>GST</th>
+                    <th>Actions</th> <!-- Removed "Created At" and "Updated At" -->
+                </tr>
+            </thead>
+            <tbody id="product-table">
+                <!-- Product listing will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="/static/js/products.js"></script>
+</body>
+</html>
